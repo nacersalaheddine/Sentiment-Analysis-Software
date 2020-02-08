@@ -1,0 +1,97 @@
+{
+  "mainWindow": {
+    "windowTitle": "Sentiment Analysis",
+    "width": 650,
+    "height": 350,
+    "toolTip": "<b>Sentiment Analysis</b> Application",
+    "windowIcon": "res/icon.png"
+  },
+  "menuBar": {
+    "file": {
+      "name": "&File",
+      "mnemonic": "Ctrl+F",
+      "iconPath": "assets/file.png"
+    },
+    "edit": {
+      "name": "&Edit",
+      "mnemonic": "Ctrl+E",
+      "iconPath": "assets/edit.png"
+    },
+    "tools": {
+      "name": "&Tools",
+      "mnemonic": "Ctrl+T",
+      "iconPath": "assets/tools.png"
+    },
+    "settings": {
+      "name": "&Settings",
+      "mnemonic": "Ctrl+S",
+      "iconPath": "assets/settings.png"
+    }
+  },
+  "menuBarItems": {
+    "new": {
+      "name": "New",
+      "mnemonic": "Ctrl+N",
+      "iconPath": "res/new.png",
+      "statusTip": "New ..."
+    },
+    "import": {
+      "name": "Import...",
+      "mnemonic": "Ctrl+I",
+      "iconPath": "res/import.png",
+      "statusTip": "Import..."
+    },
+    "exit": {
+      "name": "Exit",
+      "mnemonic": "Ctrl+Q",
+      "iconPath": "res/exit.png",
+      "statusTip": "Exit Application"
+    }
+  },
+  "buttons": {
+    "quitButton": {
+      "name": "Quit",
+      "pos": {
+        "x": 50,
+        "y": 50
+      },
+      "toolTip": "Push to <b>Quit</b> widget",
+      "mnemonic": "",
+      "iconPath": "",
+      "statusTip": "Exit Application"
+    },
+    "analyseButton": {
+      "name": "Analyse Sentiments",
+      "pos": {
+        "x": 50,
+        "y": 50
+      },
+      "toolTip": "Push to <b>Analyse</b> sentiments",
+      "mnemonic": "",
+      "iconPath": "",
+      "statusTip": "Analyzing sentiments"
+    },
+	"loadModelBtn": {
+      "name": "Load Model",
+      "pos": {
+        "x": 50,
+        "y": 50
+      },
+      "toolTip": "Push to <b>Activate Algorithme</b>",
+      "mnemonic": "",
+      "iconPath": "",
+      "statusTip": "Loading Model"
+    }
+  },
+  "textLabels": {
+    "review": "Review:",
+    "result": "Result:"
+  },
+  "closeEventMsgBox": {
+    "title": "Confirm Exit!",
+    "msg": "Are you sure to quit?"
+  },
+  "statusBar": {
+    "msg": "Ready"
+  }
+}

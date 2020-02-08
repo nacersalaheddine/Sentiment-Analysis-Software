@@ -1,0 +1,16 @@
+{
+"mainWindow":{
+	"icon":"res/icon.png"
+
+},
+"menuBar":{
+	"fileIcon":"res/exit.png",
+	"edit":"res/edit.png",
+	"tools":"res/tools.png",
+	"settings":"res/settings.png"
+	
+}
+
+
+
+}
